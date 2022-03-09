@@ -1,0 +1,25 @@
+{
+    "name": "dom/coding-challenge",
+    "description": "Coding challenge",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alnie Jacobe",
+            "email": "alniejacobe@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "mikecao/flight": "^2.0",
+        "nesbot/carbon": "^2.57",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "dom\\codingChallenge\\": "src/"
+        }
+    }
+}
